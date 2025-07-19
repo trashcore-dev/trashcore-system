@@ -1,6 +1,6 @@
 services:
   - type: worker
     name: trashcore-system
-    env: docker
+    env: Procfile
     region: Frankfurt
     plan: free
