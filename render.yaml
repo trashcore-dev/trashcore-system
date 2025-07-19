@@ -1,6 +1,0 @@
-services:
-  - type: worker
-    name: trashcore-system
-    env: Procfile
-    region: Frankfurt
-    plan: free
