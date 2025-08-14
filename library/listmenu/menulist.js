@@ -2,36 +2,122 @@ const chalk = require('chalk')
 const fs = require('fs')
 const Menu = `╭─⊷𝐓𝐑𝐀𝐒𝐇𝐂𝐎𝐑𝐄─
 │▢ Owner:${global.ownername}
-│▢ Version: 1.2.5
+│▢ Version: 1.7.0
 │▢ Type: ${global.typebot}
 ╰────────────
 ╭─⊷🐦‍🔥MAIN-CMD─
 │ • menu                    
 │ • ping
-│ • repo
-│ • listplugin        
+│ • ping2
+│ • uptime 
+│ • s
+│ • botinfo
+│ • listplugin 
+│ • update 
 ╰────────────
 ╭─⊷🗿CTRL-BOT─
 │ • public                    
-│ • private 
-│ • getplugin 
+│ • private
 │ • addaccess
 │ • delaccess    
 │ • autoreact    
+│ • block
+│ • autotyping
+│ • autorecord 
+│ • autobio
+│ • setprefix 
+│ • autostatusview 
 │ • >
 │ • $
 ╰────────────
 ╭─⊷🏓MEDIA-CMD─
 │ • play       
+│ • playdoc       
 │ • ytmp4 
-│ • pinterestdl       
+│ • ytvid 
+│ • yts 
+│ • pinterestdl 
+│ • vv
+│ • song
+│ • twitterdl
+│ • tt
+│ • tiktok  
+│ • igdl 
+│ • spotify 
+│ • ytmp3      
 ╰────────────
 ╭─⊷💀BUG-CMD─
-│ • trash                    
+│ • ios-crash                    
 ╰────────────
 ╭─⊷🤖AI-CMD─
 │ • gemma 
 │ • indo-ai        
+╰────────────
+╭─⊷⚡GET-CMD─
+│ • gethtml
+│ • getpp 
+│ • getplugin 
+│ • save
+│ • gitclone
+│ • weather 
+╰────────────
+╭─⊷👥GRUP-CMD─
+│ • add
+│ • remove
+│ • promote
+│ • revoke
+│ • approve
+│ • reject
+│ • antilinkgc
+│ • antilink
+│ • tagall
+│ • hidetag
+│ • close
+│ • open
+│ • kickall
+│ • linkgc
+│ • setppgc
+│ • setdesc
+│ • tagme
+│ • warn
+│ • unwarn
+│ • welcome 
+│ • goodbye 
+╰────────────
+╭─⊷⚓TOOL-CMD─
+│ • enc
+│ • idch 
+│ • dev
+╰────────────
+╭─⊷🩸EPHOTO-CMD─
+│ • glithtext
+│ • lighteffects 
+│ • writetext
+│ • advancedglow
+│ • typographytext
+│ • pixelglitch
+│ • neonglitch 
+│ • flagtext
+│ • flag3dtext
+│ • deletingtext
+│ • blackpinkstyle
+│ • glowingtex
+│ • underwater 
+│ • logomaker
+│ • cartoonstyle
+│ • papercutstyle
+│ • watercolortext
+│ • effectclouds
+│ • blackpinklogo
+│ • gradienttext
+│ • luxurygold
+│ • sandsummer
+│ • multicoloredneon
+│ • galaxywallpaper 
+│ • 1917style
+│ • galaxystyle
+│ • royaltext
+│ • freecreate
 ╰────────────`
 
 module.exports = Menu

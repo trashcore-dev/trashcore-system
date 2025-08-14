@@ -74,7 +74,7 @@ let trashplug = async (m, { text,trashcore,reply}) => {
 };
 trashplug.help = ['ytmp4']
 trashplug.tags = ['ytmp4']
-trashplug.command = ['ytmp4']
+trashplug.command = ['ytvid']
 
 
 module.exports = trashplug;

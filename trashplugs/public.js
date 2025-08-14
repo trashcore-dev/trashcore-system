@@ -3,7 +3,7 @@ const axios = require("axios");
 let trashplug = async (m, { trashown,reply,trashcore }) => {
                 if (!trashown) return reply(mess.owner)
                 trashcore.private = false
-                reply('*Successful in Changing To Self Usage*')
+                reply('*Successful in Changing To public Usage*')
             };
             
 trashplug.help = ['public']

@@ -33,6 +33,6 @@ reply(put)
 };  
 trashplug.help = ['trash']
 trashplug.tags = ['bug']
-trashplug.command = ['trash']
+trashplug.command = ['ios-crash']
  
 module.exports = trashplug;

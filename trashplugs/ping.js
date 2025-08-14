@@ -28,7 +28,7 @@ await m.reply(`𝒄𝒐𝒅𝒆𝒔 𝒔𝒑𝒆𝒂𝒌 𝒍𝒐𝒖𝒅𝒆�
 };  
 trashplug.help = ['ping']
 trashplug.tags = ['status']
-trashplug.command = ['ping']
+trashplug.command = ['ping2']
 
 
 module.exports = trashplug;
